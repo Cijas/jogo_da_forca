@@ -1,0 +1,148 @@
+body {
+    background: #F3F5FC;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #E5E5E5;
+    padding: 20px 0;/*cima-direita baixo-esquerda*/
+}
+
+.caixa-header {
+    position: relative;
+    width:100%;/*LARGURA PADRÃO*/
+    margin: 0 auto;
+}
+
+h1 {
+    position: absolute;
+    margin: 0 0 5px 30px;
+    vertical-align: baseline;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(3, 3, 95);
+}
+
+.instrucoes {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(3, 3, 95);
+    top: 300px;
+    left: 400px;
+}
+
+
+.botoes {
+    margin: 5px 0 15px 100px;
+    font-size: 15px;
+    font-family: 'roboto', sans-serif;
+}
+
+.botoes .novo-jogo {
+    width: 25%;
+    padding: 15px 0;
+    margin: 2% 11%;
+    background: rgb(3, 3, 95);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botoes .nova-palavra {
+    width: 25%;
+    padding: 15px 0;
+    margin: 2% 2%;
+    background: rgb(3, 3, 95);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botoes .desistir {
+    width: 10%;
+    padding: 15px 0;
+    margin: 2% 2%;
+    background: rgb(3, 3, 95);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#area-desenho {
+    position: relative;
+    align-items: center;
+    right:20%;
+    bottom: 20%;
+}
+
+.letras-erradas-container {
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(3, 3, 95);
+}
+
+#mensagem {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(3, 3, 95);
+}
+
+.aviso-palavra-repetida {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer {
+    display: block;
+    position: relative;
+    background: black;
+    text-align: center;
+    padding: 40px 0;
+    bottom: 0%;
+}
+
+.copyright {
+    color:white;
+    font-size:14px;
+    margin-top: 20px;
+}
+
+.copyright p {
+    padding: 1%;
+}
